@@ -49,7 +49,7 @@ for root,dirs,files in os.walk(image_dir):
 					print("Created file: {}".format(out_faces))
 					cv2.imwrite(out_faces,imgFile[y:y+h,x:x+w])
 
-					cv2.rectangle(imgFile, (x, y), (x+w, y+h), (255,0,0), 2)
+					cv2.rectangle(imgFile, (x, y), (x+w, y+h), (255,0,0), 3)
 					counter += 1
 					
 
