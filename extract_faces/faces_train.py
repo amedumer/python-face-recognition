@@ -1,7 +1,6 @@
 import os
 import numpy as np
 import cv2
-import pickle
 import time
 # Takes image files from images folder and saves found objects under new foler
 face_cascade = cv2.CascadeClassifier("cascades/haarcascade_frontalface_alt2.xml")
