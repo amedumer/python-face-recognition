@@ -1,3 +1,4 @@
+![An example](https://i.ibb.co/zht9YZ6/imgonline-com-ua-twotoone-Wh-CJu03i-Gkpe-Y8-KE.jpg)
 # Face Recognition with Python and openCV2
  Basic face recognition examples with python and openCV 2
  
