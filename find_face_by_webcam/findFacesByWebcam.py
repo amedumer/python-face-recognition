@@ -43,7 +43,7 @@ while True:
         minSize=(30, 30)
     )
 
-    # Draw a rectangle around the faces
+    # Draw a rectangle around the faces (w is for width, h is for height)
     for (x, y, w, h) in faces:
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
 
